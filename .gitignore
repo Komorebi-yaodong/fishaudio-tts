@@ -1,0 +1,58 @@
+# Secrets and local configuration
+scripts/.env
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Generated audio, retained scripts, and local output folders
+*.mp3
+*.wav
+*.opus
+*.pcm
+*.flac
+*.m4a
+*.aac
+*.ogg
+*.audio.json
+output/
+outputs/
+audio/
+Audio/
+recordings/
+
+# Python bytecode and tooling
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments and package build artifacts
+.venv/
+venv/
+env/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Local text inputs, logs, and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# IDE and operating-system files
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
+Desktop.ini
