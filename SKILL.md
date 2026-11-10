@@ -18,7 +18,6 @@ Turn a script into speech that sounds human, not like a phone menu.
 ### 1. 读音色目录
 
 ```powershell
-cd E:\Bigdata\SKILL\fishaudio-tts
 python scripts/fish_core.py voices
 ```
 
